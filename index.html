@@ -13,75 +13,46 @@
     <div class="container">
       <h1>Calculator</h1>
 
-      <form id="add">
+      <form id="calculator">
         <div class="form-group">
-          <label for="add1">Number 1:</label>
-          <input type="text" id="add1" class="form-control">
+          <label for="input1">Number 1:</label>
+          <input type="text" id="input1" class="form-control">
         </div>
         <div class="form-group">
-          <label for="add2">Number 2:</label>
-          <input type="text" id="add2" class="form-control">
+          <label for="input2">Number 2:</label>
+          <input type="text" id="input2" class="form-control">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked>
+            add
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract">
+            subtract
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply">
+            multiply
+          </label>
+        </div>        
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide">
+            divide
+          </label>
         </div>
         <div class="form-group">
-          <input type="submit" value="Add" class="btn btn-default">
-        </div>
-      </form>
-      <div id="addOutput">
-
-      </div>
-
-      <form id="subtract">
-        <div class="form-group">
-          <label for="subtract1">Number 1:</label>
-          <input type="text" id="subtract1" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="subtract2">Number 2:</label>
-          <input type="text" id="subtract2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Subtract" class="btn btn-default">
-        </div>
-      </form>
-      <div id="subtractOutput">
-        
-      </div>
-      
-      <form id="multiply">
-        <div class="form-group">
-          <label for="multiply1">Number 1:</label>
-          <input type="text" id="multiply1" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="multiply2">Number 2:</label>
-          <input type="text" id="multiply2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Multiply" class="btn btn-default">
+          <input type="submit" value="Submit!!!" class="btn btn-default">
         </div>
       </form>
-      <div id="multiplyOutput">
-        
+      <div id="output">
+
       </div>
-
-      <form id="divide">
-        <div class="form-group">
-          <label for="divide1">Number 1:</label>
-          <input type="text" id="divide1" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="divide2">Number 2:</label>
-          <input type="text" id="divide2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Divide" class="btn btn-default">
-        </div>
-      </form>
-      <div id="divideOutput">
-        
-      </div>
-
-
 
     </div>
 
